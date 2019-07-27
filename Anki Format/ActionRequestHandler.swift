@@ -17,13 +17,14 @@ class ActionRequestHandler: NSObject, NSExtensionRequestHandling {
         // Do not call super in an Action extension with no user interface
         self.extensionContext = context
         
+        //NSLog("here 1 ")
         var found = false
         
         // Find the item containing the results from the JavaScript preprocessing.
         outer:
             for item in context.inputItems as! [NSExtensionItem] {
                 if let attachments = item.attachments {
-                    for itemProvider in attachments as! [NSItemProvider] {
+                    for itemProvider in attachments {
                         if itemProvider.hasItemConformingToTypeIdentifier(String(kUTTypePropertyList)) {
                             itemProvider.loadItem(forTypeIdentifier: String(kUTTypePropertyList), options: nil, completionHandler: { (item, error) in
                                 let dictionary = item as! [String: Any]
@@ -47,6 +48,11 @@ class ActionRequestHandler: NSObject, NSExtensionRequestHandling {
         // Here, do something, potentially asynchronously, with the preprocessing
         // results.
         
+        // girish
+        //NSLog("in action handler")
+        PasteboardHelper.transform()
+        
+        
         // In this very simple example, the JavaScript will have passed us the
         // current background color style, if there is one. We will construct a
         // dictionary to send back with a desired new background color style.
@@ -61,6 +67,7 @@ class ActionRequestHandler: NSObject, NSExtensionRequestHandling {
     }
     
     func doneWithResults(_ resultsForJavaScriptFinalizeArg: [String: Any]?) {
+        //NSLog("here 2")
         if let resultsForJavaScriptFinalize = resultsForJavaScriptFinalizeArg {
             // Construct an NSExtensionItem of the appropriate type to return our
             // results dictionary in.

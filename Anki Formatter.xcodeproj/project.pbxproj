@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3641AA222EC44E4009591DA /* PasteboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3641AA122EC44E4009591DA /* PasteboardHelper.swift */; };
+		E3BEB17022EC43B5001C7F67 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = E3BEB16F22EC43B5001C7F67 /* SwiftSoup */; };
+		E3CA068122EC4650008706B7 /* PasteboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3641AA122EC44E4009591DA /* PasteboardHelper.swift */; };
 		E3DE019A22EC3A1B007CADA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */; };
 		E3DE019C22EC3A1B007CADA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE019B22EC3A1B007CADA4 /* ViewController.swift */; };
 		E3DE019F22EC3A1B007CADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DE019D22EC3A1B007CADA4 /* Main.storyboard */; };
@@ -17,6 +20,7 @@
 		E3DE01C222EC3A45007CADA4 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE01C122EC3A45007CADA4 /* ActionRequestHandler.swift */; };
 		E3DE01C422EC3A45007CADA4 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01C322EC3A45007CADA4 /* Action.js */; };
 		E3DE01C822EC3A45007CADA4 /* Anki Format.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E3F9FAC822EC46DB00F6A264 /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = E3F9FAC722EC46DB00F6A264 /* SwiftSoup */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E3641AA122EC44E4009591DA /* PasteboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardHelper.swift; sourceTree = "<group>"; };
 		E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anki Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3DE019B22EC3A1B007CADA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3BEB17022EC43B5001C7F67 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3F9FAC822EC46DB00F6A264 /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +107,7 @@
 				E3DE01AD22EC3A1D007CADA4 /* Anki FormatterTests */,
 				E3DE01BE22EC3A45007CADA4 /* Anki Format */,
 				E3DE019722EC3A1B007CADA4 /* Products */,
+				E3F9FAC622EC46DB00F6A264 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +126,7 @@
 			children = (
 				E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */,
 				E3DE019B22EC3A1B007CADA4 /* ViewController.swift */,
+				E3641AA122EC44E4009591DA /* PasteboardHelper.swift */,
 				E3DE019D22EC3A1B007CADA4 /* Main.storyboard */,
 				E3DE01A022EC3A1C007CADA4 /* Assets.xcassets */,
 				E3DE01A222EC3A1C007CADA4 /* LaunchScreen.storyboard */,
@@ -146,6 +155,13 @@
 			path = "Anki Format";
 			sourceTree = "<group>";
 		};
+		E3F9FAC622EC46DB00F6A264 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,6 +180,9 @@
 				E3DE01C722EC3A45007CADA4 /* PBXTargetDependency */,
 			);
 			name = "Anki Formatter";
+			packageProductDependencies = (
+				E3BEB16F22EC43B5001C7F67 /* SwiftSoup */,
+			);
 			productName = "Anki Formatter";
 			productReference = E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +218,9 @@
 			dependencies = (
 			);
 			name = "Anki Format";
+			packageProductDependencies = (
+				E3F9FAC722EC46DB00F6A264 /* SwiftSoup */,
+			);
 			productName = "Anki Format";
 			productReference = E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -234,6 +256,9 @@
 				Base,
 			);
 			mainGroup = E3DE018D22EC3A1B007CADA4;
+			packageReferences = (
+				E3BEB16E22EC43B5001C7F67 /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = E3DE019722EC3A1B007CADA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -280,6 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DE019C22EC3A1B007CADA4 /* ViewController.swift in Sources */,
+				E3641AA222EC44E4009591DA /* PasteboardHelper.swift in Sources */,
 				E3DE019A22EC3A1B007CADA4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3CA068122EC4650008706B7 /* PasteboardHelper.swift in Sources */,
 				E3DE01C222EC3A45007CADA4 /* ActionRequestHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,6 +640,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E3BEB16E22EC43B5001C7F67 /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E3BEB16F22EC43B5001C7F67 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3BEB16E22EC43B5001C7F67 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		E3F9FAC722EC46DB00F6A264 /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E3BEB16E22EC43B5001C7F67 /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E3DE018E22EC3A1B007CADA4 /* Project object */;
 }
