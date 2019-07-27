@@ -13,6 +13,10 @@
 		E3DE01A122EC3A1C007CADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01A022EC3A1C007CADA4 /* Assets.xcassets */; };
 		E3DE01A422EC3A1C007CADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01A222EC3A1C007CADA4 /* LaunchScreen.storyboard */; };
 		E3DE01AF22EC3A1D007CADA4 /* Anki_FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE01AE22EC3A1D007CADA4 /* Anki_FormatterTests.swift */; };
+		E3DE01C022EC3A45007CADA4 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01BF22EC3A45007CADA4 /* Media.xcassets */; };
+		E3DE01C222EC3A45007CADA4 /* ActionRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE01C122EC3A45007CADA4 /* ActionRequestHandler.swift */; };
+		E3DE01C422EC3A45007CADA4 /* Action.js in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01C322EC3A45007CADA4 /* Action.js */; };
+		E3DE01C822EC3A45007CADA4 /* Anki Format.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +27,28 @@
 			remoteGlobalIDString = E3DE019522EC3A1B007CADA4;
 			remoteInfo = "Anki Formatter";
 		};
+		E3DE01C622EC3A45007CADA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3DE018E22EC3A1B007CADA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DE01BC22EC3A45007CADA4;
+			remoteInfo = "Anki Format";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E3DE01CC22EC3A45007CADA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E3DE01C822EC3A45007CADA4 /* Anki Format.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anki Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +61,11 @@
 		E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anki FormatterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DE01AE22EC3A1D007CADA4 /* Anki_FormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anki_FormatterTests.swift; sourceTree = "<group>"; };
 		E3DE01B022EC3A1D007CADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Anki Format.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DE01BF22EC3A45007CADA4 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		E3DE01C122EC3A45007CADA4 /* ActionRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRequestHandler.swift; sourceTree = "<group>"; };
+		E3DE01C322EC3A45007CADA4 /* Action.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Action.js; sourceTree = "<group>"; };
+		E3DE01C522EC3A45007CADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3DE01BA22EC3A45007CADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +98,7 @@
 			children = (
 				E3DE019822EC3A1B007CADA4 /* Anki Formatter */,
 				E3DE01AD22EC3A1D007CADA4 /* Anki FormatterTests */,
+				E3DE01BE22EC3A45007CADA4 /* Anki Format */,
 				E3DE019722EC3A1B007CADA4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +108,7 @@
 			children = (
 				E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */,
 				E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */,
+				E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +135,17 @@
 			path = "Anki FormatterTests";
 			sourceTree = "<group>";
 		};
+		E3DE01BE22EC3A45007CADA4 /* Anki Format */ = {
+			isa = PBXGroup;
+			children = (
+				E3DE01BF22EC3A45007CADA4 /* Media.xcassets */,
+				E3DE01C122EC3A45007CADA4 /* ActionRequestHandler.swift */,
+				E3DE01C322EC3A45007CADA4 /* Action.js */,
+				E3DE01C522EC3A45007CADA4 /* Info.plist */,
+			);
+			path = "Anki Format";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,10 +156,12 @@
 				E3DE019222EC3A1B007CADA4 /* Sources */,
 				E3DE019322EC3A1B007CADA4 /* Frameworks */,
 				E3DE019422EC3A1B007CADA4 /* Resources */,
+				E3DE01CC22EC3A45007CADA4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E3DE01C722EC3A45007CADA4 /* PBXTargetDependency */,
 			);
 			name = "Anki Formatter";
 			productName = "Anki Formatter";
@@ -134,6 +186,23 @@
 			productReference = E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E3DE01BC22EC3A45007CADA4 /* Anki Format */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DE01C922EC3A45007CADA4 /* Build configuration list for PBXNativeTarget "Anki Format" */;
+			buildPhases = (
+				E3DE01B922EC3A45007CADA4 /* Sources */,
+				E3DE01BA22EC3A45007CADA4 /* Frameworks */,
+				E3DE01BB22EC3A45007CADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anki Format";
+			productName = "Anki Format";
+			productReference = E3DE01BD22EC3A45007CADA4 /* Anki Format.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -150,6 +219,9 @@
 					E3DE01A922EC3A1D007CADA4 = {
 						CreatedOnToolsVersion = 10.3;
 						TestTargetID = E3DE019522EC3A1B007CADA4;
+					};
+					E3DE01BC22EC3A45007CADA4 = {
+						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
@@ -168,6 +240,7 @@
 			targets = (
 				E3DE019522EC3A1B007CADA4 /* Anki Formatter */,
 				E3DE01A922EC3A1D007CADA4 /* Anki FormatterTests */,
+				E3DE01BC22EC3A45007CADA4 /* Anki Format */,
 			);
 		};
 /* End PBXProject section */
@@ -187,6 +260,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DE01BB22EC3A45007CADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DE01C422EC3A45007CADA4 /* Action.js in Resources */,
+				E3DE01C022EC3A45007CADA4 /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +292,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E3DE01B922EC3A45007CADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DE01C222EC3A45007CADA4 /* ActionRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,6 +307,11 @@
 			isa = PBXTargetDependency;
 			target = E3DE019522EC3A1B007CADA4 /* Anki Formatter */;
 			targetProxy = E3DE01AB22EC3A1D007CADA4 /* PBXContainerItemProxy */;
+		};
+		E3DE01C722EC3A45007CADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3DE01BC22EC3A45007CADA4 /* Anki Format */;
+			targetProxy = E3DE01C622EC3A45007CADA4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -359,10 +454,12 @@
 		E3DE01B422EC3A1D007CADA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B956CC42A;
 				INFOPLIST_FILE = "Anki Formatter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +474,12 @@
 		E3DE01B522EC3A1D007CADA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B956CC42A;
 				INFOPLIST_FILE = "Anki Formatter/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -434,6 +533,46 @@
 			};
 			name = Release;
 		};
+		E3DE01CA22EC3A45007CADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki Format/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-Formatter.Anki-Format";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3DE01CB22EC3A45007CADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki Format/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-Formatter.Anki-Format";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,6 +599,15 @@
 			buildConfigurations = (
 				E3DE01B722EC3A1D007CADA4 /* Debug */,
 				E3DE01B822EC3A1D007CADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DE01C922EC3A45007CADA4 /* Build configuration list for PBXNativeTarget "Anki Format" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DE01CA22EC3A45007CADA4 /* Debug */,
+				E3DE01CB22EC3A45007CADA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
