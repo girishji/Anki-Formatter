@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3DE019A22EC3A1B007CADA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */; };
+		E3DE019C22EC3A1B007CADA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE019B22EC3A1B007CADA4 /* ViewController.swift */; };
+		E3DE019F22EC3A1B007CADA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DE019D22EC3A1B007CADA4 /* Main.storyboard */; };
+		E3DE01A122EC3A1C007CADA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01A022EC3A1C007CADA4 /* Assets.xcassets */; };
+		E3DE01A422EC3A1C007CADA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3DE01A222EC3A1C007CADA4 /* LaunchScreen.storyboard */; };
+		E3DE01AF22EC3A1D007CADA4 /* Anki_FormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DE01AE22EC3A1D007CADA4 /* Anki_FormatterTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3DE01AB22EC3A1D007CADA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3DE018E22EC3A1B007CADA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3DE019522EC3A1B007CADA4;
+			remoteInfo = "Anki Formatter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Anki Formatter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3DE019B22EC3A1B007CADA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3DE019E22EC3A1B007CADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3DE01A022EC3A1C007CADA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3DE01A322EC3A1C007CADA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3DE01A522EC3A1C007CADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Anki FormatterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3DE01AE22EC3A1D007CADA4 /* Anki_FormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anki_FormatterTests.swift; sourceTree = "<group>"; };
+		E3DE01B022EC3A1D007CADA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3DE019322EC3A1B007CADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DE01A722EC3A1D007CADA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3DE018D22EC3A1B007CADA4 = {
+			isa = PBXGroup;
+			children = (
+				E3DE019822EC3A1B007CADA4 /* Anki Formatter */,
+				E3DE01AD22EC3A1D007CADA4 /* Anki FormatterTests */,
+				E3DE019722EC3A1B007CADA4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3DE019722EC3A1B007CADA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */,
+				E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3DE019822EC3A1B007CADA4 /* Anki Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				E3DE019922EC3A1B007CADA4 /* AppDelegate.swift */,
+				E3DE019B22EC3A1B007CADA4 /* ViewController.swift */,
+				E3DE019D22EC3A1B007CADA4 /* Main.storyboard */,
+				E3DE01A022EC3A1C007CADA4 /* Assets.xcassets */,
+				E3DE01A222EC3A1C007CADA4 /* LaunchScreen.storyboard */,
+				E3DE01A522EC3A1C007CADA4 /* Info.plist */,
+			);
+			path = "Anki Formatter";
+			sourceTree = "<group>";
+		};
+		E3DE01AD22EC3A1D007CADA4 /* Anki FormatterTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3DE01AE22EC3A1D007CADA4 /* Anki_FormatterTests.swift */,
+				E3DE01B022EC3A1D007CADA4 /* Info.plist */,
+			);
+			path = "Anki FormatterTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3DE019522EC3A1B007CADA4 /* Anki Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DE01B322EC3A1D007CADA4 /* Build configuration list for PBXNativeTarget "Anki Formatter" */;
+			buildPhases = (
+				E3DE019222EC3A1B007CADA4 /* Sources */,
+				E3DE019322EC3A1B007CADA4 /* Frameworks */,
+				E3DE019422EC3A1B007CADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Anki Formatter";
+			productName = "Anki Formatter";
+			productReference = E3DE019622EC3A1B007CADA4 /* Anki Formatter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3DE01A922EC3A1D007CADA4 /* Anki FormatterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3DE01B622EC3A1D007CADA4 /* Build configuration list for PBXNativeTarget "Anki FormatterTests" */;
+			buildPhases = (
+				E3DE01A622EC3A1D007CADA4 /* Sources */,
+				E3DE01A722EC3A1D007CADA4 /* Frameworks */,
+				E3DE01A822EC3A1D007CADA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3DE01AC22EC3A1D007CADA4 /* PBXTargetDependency */,
+			);
+			name = "Anki FormatterTests";
+			productName = "Anki FormatterTests";
+			productReference = E3DE01AA22EC3A1D007CADA4 /* Anki FormatterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3DE018E22EC3A1B007CADA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = gpalya;
+				TargetAttributes = {
+					E3DE019522EC3A1B007CADA4 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					E3DE01A922EC3A1D007CADA4 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = E3DE019522EC3A1B007CADA4;
+					};
+				};
+			};
+			buildConfigurationList = E3DE019122EC3A1B007CADA4 /* Build configuration list for PBXProject "Anki Formatter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3DE018D22EC3A1B007CADA4;
+			productRefGroup = E3DE019722EC3A1B007CADA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3DE019522EC3A1B007CADA4 /* Anki Formatter */,
+				E3DE01A922EC3A1D007CADA4 /* Anki FormatterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3DE019422EC3A1B007CADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DE01A422EC3A1C007CADA4 /* LaunchScreen.storyboard in Resources */,
+				E3DE01A122EC3A1C007CADA4 /* Assets.xcassets in Resources */,
+				E3DE019F22EC3A1B007CADA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DE01A822EC3A1D007CADA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3DE019222EC3A1B007CADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DE019C22EC3A1B007CADA4 /* ViewController.swift in Sources */,
+				E3DE019A22EC3A1B007CADA4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3DE01A622EC3A1D007CADA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3DE01AF22EC3A1D007CADA4 /* Anki_FormatterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3DE01AC22EC3A1D007CADA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3DE019522EC3A1B007CADA4 /* Anki Formatter */;
+			targetProxy = E3DE01AB22EC3A1D007CADA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3DE019D22EC3A1B007CADA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DE019E22EC3A1B007CADA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3DE01A222EC3A1C007CADA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3DE01A322EC3A1C007CADA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3DE01B122EC3A1D007CADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3DE01B222EC3A1D007CADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3DE01B422EC3A1D007CADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki Formatter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-Formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3DE01B522EC3A1D007CADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki Formatter/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-Formatter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E3DE01B722EC3A1D007CADA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki FormatterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-FormatterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anki Formatter.app/Anki Formatter";
+			};
+			name = Debug;
+		};
+		E3DE01B822EC3A1D007CADA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B956CC42A;
+				INFOPLIST_FILE = "Anki FormatterTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.girish.Anki-FormatterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Anki Formatter.app/Anki Formatter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3DE019122EC3A1B007CADA4 /* Build configuration list for PBXProject "Anki Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DE01B122EC3A1D007CADA4 /* Debug */,
+				E3DE01B222EC3A1D007CADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DE01B322EC3A1D007CADA4 /* Build configuration list for PBXNativeTarget "Anki Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DE01B422EC3A1D007CADA4 /* Debug */,
+				E3DE01B522EC3A1D007CADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3DE01B622EC3A1D007CADA4 /* Build configuration list for PBXNativeTarget "Anki FormatterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3DE01B722EC3A1D007CADA4 /* Debug */,
+				E3DE01B822EC3A1D007CADA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3DE018E22EC3A1B007CADA4 /* Project object */;
+}
